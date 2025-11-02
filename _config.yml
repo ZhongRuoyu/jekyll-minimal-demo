@@ -1,0 +1,59 @@
+title: Minimal
+url: https://jekyll-minimal.ruoyu.io
+theme: minimal
+
+tagline: Minimal | A minimalist Jekyll blog theme.
+description: A minimalist Jekyll blog theme.
+author: Ruoyu Zhong
+copyright:
+  years:
+    begin: 2022
+    end: 2025
+  owner: Ruoyu Zhong
+
+lang: en-US
+locale: en_US
+date_format: "%B %-d, %Y"
+permalink: /:categories/:title/
+
+logo: /assets/images/logo.png
+favicon:
+  - rel: apple-touch-icon
+    sizes: 180x180
+    href: /assets/images/favicon/apple-touch-icon.png
+  - rel: icon
+    type: image/png
+    sizes: 32x32
+    href: /assets/images/favicon/favicon-32x32.png
+  - rel: icon
+    type: image/png
+    sizes: 16x16
+    href: /assets/images/favicon/favicon-16x16.png
+
+navigation_items:
+  - name: Home
+    path: /
+  - name: Blog
+    path: /blog/
+  - name: Projects
+    path: /projects/
+  - name: About
+    path: /about/
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: page
+      anchor: true
+
+sass:
+  sourcemap: development
+
+plugins:
+  - jekyll-redirect-from
+  - jekyll-sitemap
+
+exclude:
+  - LICENSE
+  - README.md
