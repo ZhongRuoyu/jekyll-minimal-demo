@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/ZhongRuoyu/jekyll-minimal.git
-  revision: ebc7a97363293cf40d1edf34bc4e8d77f5379d03
+  revision: 11488d8c230654b7b006e580d7d6287fe38c2e73
   specs:
     minimal (0)
       jekyll (~> 4)
