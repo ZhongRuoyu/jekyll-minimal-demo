@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/ZhongRuoyu/jekyll-minimal.git
-  revision: 11488d8c230654b7b006e580d7d6287fe38c2e73
+  revision: 816340a328ad06dd5a8b8133fb4a56232b690729
   specs:
     minimal (0)
       jekyll (~> 4)
@@ -77,7 +77,7 @@ GEM
       jekyll (>= 3.7, < 5.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
-    json (2.19.4)
+    json (2.19.5)
     kramdown (2.5.2)
       rexml (>= 3.4.4)
     kramdown-parser-gfm (1.1.0)
